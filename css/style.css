@@ -1,0 +1,252 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*containers*/
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+
+    background: url("../images/whiskey_drop_bg_image_2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+
+
+/*opaque-overlay*/
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+.container-wrapper {
+    background-color: #0000003d;
+    ;
+}
+
+
+.container-wrapper--red {
+    background-color: #e05353;
+    color: white;
+    padding: 20px;
+}
+
+/* Navbar*/
+
+.navbar {
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-tn {
+    border-radius: 20px;
+    width: 87px;
+    margin-top: 10px;
+    background-color: #e05353;
+    border: 0;
+    color: white;
+}
+
+.btn-default:hover {
+    background-color: #cc0909;
+    color: white;
+}
+
+p i {
+    color: #e05353;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*.jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+
+.jumbotron {
+
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+/*block dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+
+}
+
+.block-divider--red {
+    background-color: #e05353;
+}
+
+.jumbotron p {
+    color: #fffdfb;
+}
+
+/*buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+
+}
+
+.btn-cta-color {
+    background-color: #e05353;
+
+}
+
+.btn-cta-color:hover,
+.btn-cta-color:active,
+.btn-cta-color:focus,
+.btn-cta-color:active:focus {
+    color: white;
+    border-color: #cc0909;
+    background-color: #cc0909;
+}
+
+/*alert box*/
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.alert-warning {
+    color: #615700;
+    background-color: #FFEB3B;
+    border-color: #faebcc;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*page headers*/
+
+.page-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: 0;
+    width: 100%;
+}
+
+.quote .page-header {
+    margin-bottom:25px;
+}
+
+
+.block-divider {
+    width: 35px;
+    background-color: #e05353;
+    border: 17px;
+    border-radius: 6px;
+}
+
+.block-divider--white {
+    background-color: white;
+
+}
+
+/*features*/
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-text {
+    margin-bottom: 30px;
+}
+
+.feature .glyphicon {
+    display: block;
+    font-size: 55px;
+    margin-bottom: 20px;
+    line-height: 45px
+}
+
+.btn {
+    border-radius: 23px;
+    width: 123px;
+}
